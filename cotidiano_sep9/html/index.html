@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+
+    <h1>CALCULO DE FIGURAS GEOMETRICAS</h1>
+    <form id="miform">
+
+        <h2>Seleccione que desea Calcular</h2>
+        <button type="button" onclick="areatri()">ÁREA DEL TRIÁNGULO</button>
+        <button type="button" onclick="peritri()">PERÍMETRO DEL TRIÁNGULO</button>
+        <button type="button" onclick="areaCuadrado()">ÁREA DEL CUADRADO</button>
+        <button type="button" onclick="perimetroCuadrado()">PERÍMETRO DEL CUADRADO</button>
+        <button type="button" onclick="areaRectangulo()">ÁREA DEL RECTÁNGULO</button>
+        <button type="button" onclick="perimetroRectangulo()">PERÍMETRO DEL RECTÁNGULO</button>
+        <button type="button" onclick="areaCirculo()">ÁREA DEL CíRCULO</button>
+        <button type="button" onclick="perimetroCirculo()">PERÍMETRO DEL CíRCULO </button>
+
+
+        <!--TRIANGULO-->
+        <div id="area_triangulo">
+            <h2>ÁREA DEL TRIANGULO</h2>
+            <h3>Formula: b x h / 2</h3>
+            <label> Ingresé la base: </label>
+            <input type="text" id="base" />
+            <br>
+            <label>Ingresé la altura: </label>
+            <input type="text" id="altura">
+            <br>
+            <button type="button" id="calcu" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+            <br>
+            <label>El resultado es:</label> <input type="textfield" id="resultado4">
+            <br><br>
+            <img src="../img/TRIANGULO.png" alt="">
+        </div>
+        <div id="perimetro_triangulo">
+            <h2>PERÍMETRO DEL TRIANGULO</h2>
+            <h3>Formula: L + L + L</h3>
+            <label> ingresé el lado #1</label>
+            <input type="text" id="num1">
+            <br>
+            <label> ingresé el lado #2</label>
+            <input type="text" id="num2">
+            <br>
+            <label> ingresé el lado #3</label>
+            <input type="text" id="num3">
+            <br>
+            <button type="button" id="sum" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+            <br>
+            <label>El resultado es:</label><input type="textfield" id="resultado7">
+            <br><br>
+            <img src="../img/TRIANGULO.png" alt="">
+        </div>
+        <hr id="espacio">
+
+
+        <!--CUADRADO-->
+        <div id="area_cuadrado">
+            <h2>ÁREA DEL CUADRADO</h2>
+            <h3>Formula: L x L</h3>
+            <label> ingresé el lado #1</label>
+            <input type="text" id="n1">
+            <br>
+            <label> ingrese el lado #2</label>
+            <input type="text" id="n2">
+            <br>
+            <button type="button" id="multiplicar" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+
+            <br>
+            <label>El resultado es:</label><input type="textfield" name="" id="resultado">
+            <br><br>
+            <img src="../img/cuadrado.jpg" alt="">
+        </div>
+
+        <div id="perimetro_cuadrado">
+            <h2>PERÍMETRO DEL CUADRADO</h2>
+            <h3>formula: L + L + L + L</h3>
+            <label> ingresé el lado #1</label>
+            <input type="text" id="lado1">
+            <br>
+            <label> ingresé el lado #2</label>
+            <input type="text" id="lado2">
+            <br>
+            <label> ingresé el lado #3</label>
+            <input type="text" id="lado3">
+            <br>
+            <label>ingresé el lado #4</label>
+            <input type="text" id="lado4">
+            <br>
+            <button type="button" id="sumar" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+
+            <br>
+            <label>El resultado es:</label><input type="textfield" id="resultado1">
+            <br><br>
+            <img src="../img/cuadrado.jpg" alt="">
+        </div>
+        <hr id="espacio">
+
+        <!--RECTANGULO-->
+        <div id="area_rec">
+            <h2>ÁREA DEL RECTANGULO</h2>
+            <h3>Formula: b x h</h3>
+            <label> ingresé la base </label>
+            <input type="text" id="b">
+            <br><br>
+            <label> ingresé la altura </label>
+            <input type="text" id="h">
+            <br><br>
+            <button type="button" id="multiplique" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+
+            <br><br>
+            <label>El resultado es:</label> <input type="textfield" id="resultado5">
+            <br><br>
+            <img src="../img/rectangulo.png" alt="">
+        </div>
+
+        <div id="perimetro_rec">
+            <h2>PERÍMETRO DEL RECTANGULO</h2>
+            <h3>Formula: b + b + h + h</h3>
+            <label> ingresé la base #1</label>
+            <input type="text" id="nu1">
+            <br>
+            <label> ingresé la base #2</label>
+            <input type="text" id="nu2">
+            <br>
+            <label> ingresé la altura #1</label>
+            <input type="text" id="nu3">
+            <br>
+            <label>ingresé la altura #2</label>
+            <input type="text" id="nu4">
+            <br>
+            <button type="button" id="suma" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+
+            <br>
+            <label>El resultado es:</label><input type="textfield" id="resultado6">
+            <br><br>
+            <img src="../img/rectangulo.png" alt="">
+        </div>
+        <hr id="espacio">
+
+        <!--CIRCULO-->
+        <div id="area_circulo">
+            <h2>ÁREA DEL CIRCULO</h2>
+            <h3>formula: A = π x r²</h3>
+            <label> ingresé el radio</label>
+            <input type="text" id="radio1" />
+            <br>
+            <button type="button" id="calcular" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+            <br>
+            <label>El resultado es:</label><input type="textfield" id="resultado2">
+            <br><br>
+            <img src="../img/circulo.jpg" alt="">
+        </div>
+        <div id="perimetro_circulo">
+            <h2>PERÍMETRO DEL CIRCULO</h2>
+            <h3>formula: 2 x π x r </h3>
+            <label> ingresé el radio</label>
+            <input type="text" id="radio">
+            <br>
+            <button type="button" id="calcularr" class="calcular">Calcular</button>
+            <input type="reset" name="Borrar" id="Borrar">
+            <br>
+            <label> El resultado es:</label><input type="textfield" id="resultado3">
+            <br><br>
+            <img src="../img/circulo.jpg" alt="">
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

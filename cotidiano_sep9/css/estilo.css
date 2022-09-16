@@ -1,0 +1,220 @@
+body {
+    background: rgb(99,114,134);
+background: linear-gradient(90deg, rgba(99,114,134,1) 0%, rgba(38,39,52,1) 100%);
+}
+
+
+h1 {
+    color: rgb(240, 240, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+
+
+
+
+h3{
+    color: rgb(241, 241, 241);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}  
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+label{
+    color: rgb(255, 255, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#botones{
+    margin-top: auto;
+    float:left;
+}
+
+form {
+    margin: auto;
+    display:block;
+    width: 300%;
+    max-width: 800px;
+    text-align: center;
+    border: solid 1px #c2c2c2;
+    padding-bottom: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(187, 92, 15, 0.175);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    border: 1px solid rgb(252, 252, 252);
+    height: 10%;
+}
+
+
+input[type=text] {
+    width: 5%;
+    padding: 10px 2px;
+    font-size: 16px;
+    margin: 8px 3px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(179, 60, 5, 0.153);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    border: 1px solid rgb(252, 252, 252);
+
+}
+
+input[type=text] {
+    width: 11%;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(216, 81, 9, 0.156);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+input[type=textfield] {
+    width: 10%;
+    padding: 10px 32px;
+    font-size: 16px;
+    margin: 8px 0;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    text-align: left;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 32px 0 rgba(191, 82, 10, 0.145);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 16px;
+    border: 1px solid rgb(252, 252, 252);
+}
+
+
+ button{
+    width: 35%;
+    padding: 21px 5px;
+    font-size: 13px;
+    margin: 12px 5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+button:hover{
+    transform:scaleX(1.1);
+
+}
+.calcular{
+    width: 15%;
+    padding: 9px 32px;
+    font-size: 12px;
+    margin: 15px 0;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 100, 33);
+    background: linear-gradient(90deg, rgb(255, 122, 33) 0%, rgb(255, 93, 81) 100%);
+}
+
+
+
+
+
+
+.calcular:hover{
+    transform:scaleX(1.1);
+   
+}
+
+
+
+#Borrar{
+    width: 15%;
+    padding: 9px 32px;
+    font-size: 12px;
+    margin: 30px 5px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(255, 100, 33);
+    background: linear-gradient(90deg, rgb(255, 122, 33) 0%, rgb(255, 93, 81) 100%);
+}
+
+#Borrar:hover{
+    transform:scaleX(1.1);
+ background: rgb(255, 100, 33);
+    background: linear-gradient(90deg, rgb(255, 122, 33) 0%, rgb(255, 93, 81) 100%);
+}
+
+
+img{
+    margin: auto;
+    width: 35%;
+}
+
+
+
+
+
+#perimetro_triangulo,
+#area_triangulo {
+    display: none;
+}
+
+#perimetro_circulo,
+#area_circulo {
+    display: none;
+}
+
+#area_cuadrado,#areacua, #perimetro_cuadrado {
+    display: none;
+}
+
+#area_rec, #perimetro_rec{
+    display: none;
+}
+
+
+
+
+
+
+
+
